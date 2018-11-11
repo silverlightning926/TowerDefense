@@ -9,9 +9,10 @@ public class Turret : MonoBehaviour {
     [Header("Attributes")]
 
     public float range = 15f;
-    public float turnSpeed = 10;
     public float fireRate = 1f;
     private float fireCountDown = 0;
+
+    private float turnSpeed = 10;
 
     [Header("Unity Setup Fields")]
     public Transform partToRotate;
