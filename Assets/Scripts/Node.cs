@@ -12,7 +12,7 @@ public class Node : MonoBehaviour {
     private Renderer rend;
     private Color startColor;
 
-    public BuildManager buildManager;
+    BuildManager buildManager;
 
     void Start()
     {
