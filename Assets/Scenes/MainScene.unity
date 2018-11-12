@@ -2124,7 +2124,7 @@ Prefab:
     - target: {fileID: 114943392647639714, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PurchaseMissileLauncher
+      value: SelectMissileLauncher
       objectReference: {fileID: 0}
     - target: {fileID: 114943392647639714, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
@@ -5378,6 +5378,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a708707303079e4d8586482d8503857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  standardTurret:
+    prefab: {fileID: 1642275585390086, guid: a49abab275f6c684f858e57e29a1fc28, type: 2}
+    cost: 100
+  missileLauncher:
+    prefab: {fileID: 1069115588369772, guid: 49fcb6a049085c044877d0c658a9b51a, type: 2}
+    cost: 250
 --- !u!1001 &731964768
 Prefab:
   m_ObjectHideFlags: 0
@@ -6410,6 +6416,7 @@ GameObject:
   - component: {fileID: 874047958}
   - component: {fileID: 874047957}
   - component: {fileID: 874047959}
+  - component: {fileID: 874047960}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: Untagged
@@ -6461,6 +6468,18 @@ MonoBehaviour:
     type: 2}
   missileLauncherPrefab: {fileID: 1069115588369772, guid: 49fcb6a049085c044877d0c658a9b51a,
     type: 2}
+--- !u!114 &874047960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 874047956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67dc0bd9845e20443a9af35a88740143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMoney: 400
 --- !u!1001 &876386727
 Prefab:
   m_ObjectHideFlags: 0
@@ -12493,7 +12512,7 @@ Prefab:
     - target: {fileID: 114943392647639714, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PurchaseStandardTurret
+      value: SelectStandardTurret
       objectReference: {fileID: 0}
     - target: {fileID: 114943392647639714, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
