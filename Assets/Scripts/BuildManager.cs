@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
  
 public class BuildManager : MonoBehaviour {
 
@@ -19,6 +17,8 @@ public class BuildManager : MonoBehaviour {
 
     public GameObject standardTurretPrefab;
     public GameObject missileLauncherPrefab;
+
+    public GameObject buildEffect;
 
     private TurretBlueprint turretToBuild;
 
@@ -52,6 +52,9 @@ public class BuildManager : MonoBehaviour {
 
         GameObject turret = (GameObject)Instantiate(turretToBuild.prefab, node.GetBuildPosition(), Quaternion.identity); 
        node.turret = turret;
+
+        GameObject effect = (GameObject) Instantiate(buildEffect, node.GetBuildPosition(), Quaternion.identity);
+        Destroy(effect, 5f);
 
         Debug.Log("Turret built! Money Left:" + PlayerStats.Money);
     }
