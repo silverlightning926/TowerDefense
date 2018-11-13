@@ -6,12 +6,33 @@ public class Enemy : MonoBehaviour {
 
     public float speed = 10f;
 
+    public int health = 100;
+
+    public int reward = 50;
+
     private Transform target;
     private int wavepointIndex = 0;
 
     void Start()
     {
         target = Waypoints.points[0];
+    }
+
+    public void TakeDamage(int amount)
+    {
+        health -= amount;
+
+        if (health < 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        PlayerStats.Money += reward;
+
+        Destroy(gameObject);
     }
 
     void Update()
