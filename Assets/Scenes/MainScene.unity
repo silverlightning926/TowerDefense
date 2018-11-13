@@ -756,7 +756,7 @@ Transform:
   - {fileID: 1400048491}
   - {fileID: 1160678551}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &43877581
 Prefab:
@@ -1501,7 +1501,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 123.812, y: -30, z: 0}
 --- !u!1001 &215217928
 Prefab:
@@ -4728,7 +4728,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 69.925, y: 0, z: 0}
 --- !u!114 &534669906
 MonoBehaviour:
@@ -5033,7 +5033,7 @@ Transform:
   - {fileID: 1190890915}
   - {fileID: 1467600074}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &554577372
 MonoBehaviour:
@@ -7235,7 +7235,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &704663602
 Prefab:
@@ -9412,7 +9412,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4236747715497510, guid: eac37eb06363f2849a29a821ca367dc2, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eac37eb06363f2849a29a821ca367dc2, type: 2}
@@ -11193,7 +11193,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4393809887779592, guid: 9656fd69a5929c04cb890d825490d588, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9656fd69a5929c04cb890d825490d588, type: 2}
@@ -14490,7 +14490,7 @@ GameObject:
   - component: {fileID: 1512446159}
   - component: {fileID: 1512446158}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14568,7 +14568,7 @@ RectTransform:
   - {fileID: 1948959498}
   - {fileID: 720881283}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -17539,7 +17539,7 @@ Transform:
   - {fileID: 1996580662}
   - {fileID: 922365036}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1851652830
 Prefab:
