@@ -16,6 +16,7 @@ public class Turret : MonoBehaviour {
     public LineRenderer lineRenderer;
 
     public ParticleSystem impactEffect;
+    public Light impactLight;
 
     [Header("Unity Setup Fields")]
 
@@ -75,6 +76,7 @@ public class Turret : MonoBehaviour {
                 if (lineRenderer.enabled)
                 {
                     lineRenderer.enabled = false;
+                    impactLight.enabled = false;
                     impactEffect.Stop();
                 }
             }
@@ -106,6 +108,7 @@ public class Turret : MonoBehaviour {
         if (!lineRenderer.enabled)
         {
             lineRenderer.enabled = true;
+            impactLight.enabled = true;
             impactEffect.Play();
         }
 
