@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 10669
+  controlID: 18919
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -124,10 +124,10 @@ MonoBehaviour:
     y: 0
     width: 744
     height: 635
-  m_MinSize: {x: 202, y: 421}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 202, y: 442}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 10670
+  controlID: 18893
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,14 +179,14 @@ MonoBehaviour:
     height: 264
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 15828.204085146199
+  lastFramingTime: 76498.23274947368
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 3, z: 2.5}
+    m_Target: {x: 20.18, y: 1.81, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 3, z: 2.5}
+    m_Value: {x: 20.18, y: 1.81, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -214,13 +214,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.080136925, y: 0.8828295, z: -0.1633858, w: -0.4330074}
+    m_Target: {x: 0.021056313, y: 0.3842427, z: -0.008766232, w: 0.9229522}
     speed: 2
-    m_Value: {x: -0.080136925, y: 0.8828295, z: -0.1633858, w: -0.4330074}
+    m_Value: {x: 0.021056278, y: 0.38424206, z: -0.008766217, w: 0.9229506}
   m_Size:
-    m_Target: 1.1901298
+    m_Target: 22
     speed: 2
-    m_Value: 1.1901298
+    m_Value: 22
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 10692
+  controlID: 18848
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,8 +299,8 @@ MonoBehaviour:
     y: 0
     width: 262
     height: 312
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 9}
   m_Panes:
   - {fileID: 9}
@@ -333,9 +333,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ae2b0000
-    m_LastClickedID: 0
-    m_ExpandedIDs: f218f2fffc18f2fffa29f5ff042af5ffe25cf5ffe65cf5ff5839fcffe4fbffff00000000
+    m_SelectedIDs: 1a40ecff
+    m_LastClickedID: -1294310
+    m_ExpandedIDs: b421ecff8e89ecfff218f2fffc18f2fffa29f5ff042af5ffe25cf5ffe65cf5ff5839fcffe4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -421,19 +421,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Enemy
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs/Enemy
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\raos\Documents\TowerDefense
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 422b0000
-    m_LastClickedID: 11074
+    m_SelectedIDs: b82d0000
+    m_LastClickedID: 11704
     m_ExpandedIDs: 00000000fe290000b82d0000a833000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -487,10 +487,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ae2b0000
-    m_LastClickedInstanceID: 11182
+    m_SelectedInstanceIDs: 1a40ecff
+    m_LastClickedInstanceID: -1294310
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 0000000082260000bc2c0000662a0000
+    m_ExpandedInstanceIDs: 0000000082260000bc2c0000662a00003e2c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -535,8 +535,8 @@ MonoBehaviour:
     y: 0
     width: 360
     height: 635
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
