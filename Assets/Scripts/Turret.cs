@@ -15,6 +15,8 @@ public class Turret : MonoBehaviour {
     public bool useLaser = false;
     public LineRenderer lineRenderer;
 
+    public ParticleSystem impactEffect;
+
     [Header("Unity Setup Fields")]
 
     public float fireRate = 1f;
@@ -73,6 +75,7 @@ public class Turret : MonoBehaviour {
                 if (lineRenderer.enabled)
                 {
                     lineRenderer.enabled = false;
+                    impactEffect.Stop();
                 }
             }
 
@@ -103,10 +106,17 @@ public class Turret : MonoBehaviour {
         if (!lineRenderer.enabled)
         {
             lineRenderer.enabled = true;
+            impactEffect.Play();
         }
 
         lineRenderer.SetPosition(0, firePoint.position);
         lineRenderer.SetPosition(1, target.position);
+
+        Vector3 dir = firePoint.position - target.position;
+
+        impactEffect.transform.position = target.position + dir.normalized;
+
+        impactEffect.transform.rotation = Quaternion.LookRotation(dir);
     }
 
     void LockOnTarget()
