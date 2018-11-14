@@ -128,8 +128,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1447072177132142}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.71, y: 1.21, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4508558711753440}
@@ -293,7 +293,7 @@ MonoBehaviour:
   range: 20
   useLaser: 1
   lineRenderer: {fileID: 120649900125925814}
-  impactEffect: {fileID: 0}
+  impactEffect: {fileID: 198046348613822974}
   fireRate: 1
   partToRotate: {fileID: 4338578982585324}
   enemyTag: Enemy
