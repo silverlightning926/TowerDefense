@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Enemy : MonoBehaviour {
 
@@ -8,7 +6,7 @@ public class Enemy : MonoBehaviour {
 
     public int health = 100;
 
-    public int reward = 50;
+    public int reward = 25;
 
     public GameObject deathEffect;
 
