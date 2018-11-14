@@ -4,7 +4,7 @@ public class Enemy : MonoBehaviour {
 
     public float speed = 10f;
 
-    public int health = 100;
+    public float health = 100;
 
     public int reward = 25;
 
@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour {
         target = Waypoints.points[0];
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage(float amount)
     {
         health -= amount;
 
@@ -30,7 +30,6 @@ public class Enemy : MonoBehaviour {
 
     void Die()
     {
-
         PlayerStats.Money += reward;
 
         GameObject effect = (GameObject)Instantiate(deathEffect, transform.position, Quaternion.identity);
