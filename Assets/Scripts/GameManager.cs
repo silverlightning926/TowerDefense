@@ -24,6 +24,11 @@ public class GameManager : MonoBehaviour {
         {
             EndGame();
         }
+
+        if (Input.GetKeyDown("e"))
+        {
+            EndGame();
+        }
     }
 
     void EndGame()
