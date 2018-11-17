@@ -8,6 +8,7 @@ public class Turret : MonoBehaviour {
     [Header("General")]
 
     public float range = 15f;
+    public float fireRate = 1f;
 
     [Header("Use Laser")]
 
@@ -21,9 +22,7 @@ public class Turret : MonoBehaviour {
     public ParticleSystem impactEffect;
     public Light impactLight;
 
-    [Header("Unity Setup Fields")]
-
-    public float fireRate = 1f;
+    
     private float fireCountDown = 0;
 
     private float turnSpeed = 10;
