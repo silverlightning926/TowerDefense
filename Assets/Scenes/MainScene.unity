@@ -8678,21 +8678,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   standardTurret:
-    prefab: {fileID: 1642275585390086, guid: a49abab275f6c684f858e57e29a1fc28, type: 2}
+    prefab: {fileID: 1343057785538412, guid: a49abab275f6c684f858e57e29a1fc28, type: 2}
     cost: 100
-    upgradedPrefab: {fileID: 1642275585390086, guid: 6a14ea747cbf8114788903960b10ade4,
+    upgradedPrefab: {fileID: 1343057785538412, guid: 7336652bdfb37254cb0e80a42a779058,
       type: 2}
     upgradeCost: 60
   missileLauncher:
     prefab: {fileID: 1069115588369772, guid: 49fcb6a049085c044877d0c658a9b51a, type: 2}
     cost: 250
-    upgradedPrefab: {fileID: 0}
-    upgradeCost: 0
+    upgradedPrefab: {fileID: 1069115588369772, guid: 4c91b7271e0955e498f9353c0ddce8ad,
+      type: 2}
+    upgradeCost: 100
   laserBeam:
     prefab: {fileID: 1050143660823610, guid: 99c5104984c8412478ea8fa7c85d7620, type: 2}
     cost: 350
-    upgradedPrefab: {fileID: 0}
-    upgradeCost: 0
+    upgradedPrefab: {fileID: 1050143660823610, guid: 28d771742797ee349a02b1312c4e0bf8,
+      type: 2}
+    upgradeCost: 250
 --- !u!1001 &731964768
 Prefab:
   m_ObjectHideFlags: 0
@@ -10696,7 +10698,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4236747715497510, guid: eac37eb06363f2849a29a821ca367dc2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4236747715497510, guid: eac37eb06363f2849a29a821ca367dc2, type: 2}
       propertyPath: m_LocalPosition.z
@@ -12692,7 +12694,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4393809887779592, guid: 9656fd69a5929c04cb890d825490d588, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4393809887779592, guid: 9656fd69a5929c04cb890d825490d588, type: 2}
       propertyPath: m_LocalPosition.z
