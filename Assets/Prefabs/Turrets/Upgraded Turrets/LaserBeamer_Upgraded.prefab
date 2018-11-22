@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4508558711753440}
   - component: {fileID: 114926809896992278}
-  - component: {fileID: 120649900125925814}
+  - component: {fileID: 120493375712967726}
   m_Layer: 0
   m_Name: LaserBeamer_Upgraded
   m_TagString: Untagged
@@ -231,7 +231,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1050143660823610}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.05, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 4322184646210416}
@@ -351,7 +351,7 @@ Light:
   m_Type: 2
   m_Color: {r: 0.11012435, g: 1, b: 0, a: 1}
   m_Intensity: 3
-  m_Range: 10
+  m_Range: 15
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -393,14 +393,14 @@ MonoBehaviour:
   useLaser: 1
   damageOverTime: 40
   slowAmount: 0.8
-  lineRenderer: {fileID: 120649900125925814}
+  lineRenderer: {fileID: 0}
   impactEffect: {fileID: 198046348613822974}
   impactLight: {fileID: 108078423521410914}
   partToRotate: {fileID: 4338578982585324}
   enemyTag: Enemy
   bulletPrefab: {fileID: 0}
   firePoint: {fileID: 4375757020660624}
---- !u!120 &120649900125925814
+--- !u!120 &120493375712967726
 LineRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -438,11 +438,9 @@ LineRenderer:
   m_Positions:
   - {x: 0, y: 3, z: 0}
   - {x: 0, y: 3, z: 5}
-  - {x: 0, y: 3, z: 5}
-  - {x: 0, y: 3, z: 5}
   m_Parameters:
     serializedVersion: 2
-    widthMultiplier: 0.4
+    widthMultiplier: 0.3
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -5350,8 +5348,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 3
-      minScalar: 2
+      scalar: 4
+      minScalar: 3
       maxCurve:
         serializedVersion: 2
         m_Curve:
