@@ -5896,7 +5896,7 @@ RectTransform:
   m_Children:
   - {fileID: 572459044}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6134,6 +6134,7 @@ MonoBehaviour:
   ui: {fileID: 1893361882}
   upgradeCost: {fileID: 1610009204}
   upgradeButton: {fileID: 1550239277}
+  sellAmount: {fileID: 427758973}
 --- !u!1 &572459043
 GameObject:
   m_ObjectHideFlags: 0
@@ -10388,7 +10389,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 872031914}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 564200550}
+        m_MethodName: Sell
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &872031914
@@ -10902,58 +10914,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4842965718371998, guid: 8dec33c0c972a5e41aeec7e05471e19e,
     type: 2}
   m_PrefabInternal: {fileID: 919829524}
---- !u!1001 &921118235
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4508558711753440, guid: 99c5104984c8412478ea8fa7c85d7620, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4508558711753440, guid: 99c5104984c8412478ea8fa7c85d7620, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 4508558711753440, guid: 99c5104984c8412478ea8fa7c85d7620, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4508558711753440, guid: 99c5104984c8412478ea8fa7c85d7620, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4508558711753440, guid: 99c5104984c8412478ea8fa7c85d7620, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4508558711753440, guid: 99c5104984c8412478ea8fa7c85d7620, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4508558711753440, guid: 99c5104984c8412478ea8fa7c85d7620, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4508558711753440, guid: 99c5104984c8412478ea8fa7c85d7620, type: 2}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 23982079443261358, guid: 99c5104984c8412478ea8fa7c85d7620,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 1e3052e61eaac8a408bdb838116cd50d, type: 2}
-    - target: {fileID: 23982079443261358, guid: 99c5104984c8412478ea8fa7c85d7620,
-        type: 2}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 1e3052e61eaac8a408bdb838116cd50d, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 99c5104984c8412478ea8fa7c85d7620, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1001 &922365035
 Prefab:
   m_ObjectHideFlags: 0

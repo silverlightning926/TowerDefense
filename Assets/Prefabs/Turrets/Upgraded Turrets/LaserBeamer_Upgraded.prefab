@@ -393,7 +393,7 @@ MonoBehaviour:
   useLaser: 1
   damageOverTime: 40
   slowAmount: 0.8
-  lineRenderer: {fileID: 0}
+  lineRenderer: {fileID: 120493375712967726}
   impactEffect: {fileID: 198046348613822974}
   impactLight: {fileID: 108078423521410914}
   partToRotate: {fileID: 4338578982585324}

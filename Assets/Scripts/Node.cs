@@ -76,6 +76,14 @@ public class Node : MonoBehaviour {
         Debug.Log("Turret Built");
     }
 
+    public void SellTurret()
+    {
+        PlayerStats.Money += turretBlueprint.GetSellAmount();
+
+        Destroy(turret);
+        turretBlueprint = null;
+    }
+
     public void UpgradeTurret()
     {
         if (PlayerStats.Money < turretBlueprint.upgradeCost)
