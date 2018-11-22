@@ -258,8 +258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c85cf59c28be0c041be7327219329bbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 15
-  fireRate: 1
+  range: 13
+  fireRate: 3
   useLaser: 0
   damageOverTime: 30
   slowAmount: 0.5

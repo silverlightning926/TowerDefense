@@ -388,11 +388,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c85cf59c28be0c041be7327219329bbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 20
+  range: 30
   fireRate: 1
   useLaser: 1
-  damageOverTime: 30
-  slowAmount: 0.5
+  damageOverTime: 40
+  slowAmount: 0.8
   lineRenderer: {fileID: 120649900125925814}
   impactEffect: {fileID: 198046348613822974}
   impactLight: {fileID: 108078423521410914}
@@ -438,9 +438,11 @@ LineRenderer:
   m_Positions:
   - {x: 0, y: 3, z: 0}
   - {x: 0, y: 3, z: 5}
+  - {x: 0, y: 3, z: 5}
+  - {x: 0, y: 3, z: 5}
   m_Parameters:
     serializedVersion: 2
-    widthMultiplier: 0.3
+    widthMultiplier: 0.4
     widthCurve:
       serializedVersion: 2
       m_Curve:
