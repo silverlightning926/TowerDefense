@@ -2042,12 +2042,12 @@ Prefab:
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 284.90002
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -47.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
@@ -2067,7 +2067,7 @@ Prefab:
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
@@ -2077,7 +2077,7 @@ Prefab:
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
@@ -6281,7 +6281,7 @@ MonoBehaviour:
   ui: {fileID: 1893361882}
   upgradeCost: {fileID: 1610009204}
   upgradeButton: {fileID: 1550239277}
-  sellAmount: {fileID: 427758973}
+  sellAmount: {fileID: 335282492}
 --- !u!1 &572459043
 GameObject:
   m_ObjectHideFlags: 0
@@ -13545,12 +13545,12 @@ Prefab:
     - target: {fileID: 224134890250992408, guid: a777abbcf06da3d419d238ee457e08b9,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 389.90002
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224134890250992408, guid: a777abbcf06da3d419d238ee457e08b9,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -47.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224134890250992408, guid: a777abbcf06da3d419d238ee457e08b9,
         type: 2}
@@ -13570,7 +13570,7 @@ Prefab:
     - target: {fileID: 224134890250992408, guid: a777abbcf06da3d419d238ee457e08b9,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224134890250992408, guid: a777abbcf06da3d419d238ee457e08b9,
         type: 2}
@@ -13580,7 +13580,7 @@ Prefab:
     - target: {fileID: 224134890250992408, guid: a777abbcf06da3d419d238ee457e08b9,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224134890250992408, guid: a777abbcf06da3d419d238ee457e08b9,
         type: 2}
@@ -19301,12 +19301,12 @@ Prefab:
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 494.90002
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -47.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
@@ -19326,7 +19326,7 @@ Prefab:
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
@@ -19336,7 +19336,7 @@ Prefab:
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224431483780033172, guid: 273b0cce606a5ec409b4f2882a6311b2,
         type: 2}
