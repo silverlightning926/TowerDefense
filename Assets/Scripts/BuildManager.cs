@@ -15,7 +15,7 @@ public class BuildManager : MonoBehaviour {
             Debug.Log("More than one build manager in the scene!");
             return;
         }
-
+        
         instance = this;
     } 
 
