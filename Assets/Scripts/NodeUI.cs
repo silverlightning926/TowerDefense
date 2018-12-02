@@ -14,7 +14,7 @@ public class NodeUI : MonoBehaviour {
 
     public void SetTarget(Node _target)
     {
-        this.target = _target;
+        target = _target;
 
         transform.position = target.GetBuildPosition();
 

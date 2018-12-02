@@ -16,7 +16,7 @@ public class BuildManager : MonoBehaviour {
             return;
         }
         
-        instance = this;
+        instance = this; 
     } 
 
     public GameObject buildEffect;
