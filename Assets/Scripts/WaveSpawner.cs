@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class WaveSpawner : MonoBehaviour {
 
+    public static int EnemiesAlive = 0; 
+
     public Transform enemyPrefab;
 
     public Transform spawnPoint;
@@ -18,11 +20,16 @@ public class WaveSpawner : MonoBehaviour {
 
     void Update()
     {
+        if (EnemiesAlive > 0)
+        {
+            return;
+        }
+
         if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
-
             countdown = timeBetweenWaves;
+            return;
         }
 
         countdown -= Time.deltaTime;
@@ -47,5 +54,6 @@ public class WaveSpawner : MonoBehaviour {
     void SpawnEnemy()
     {
         Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+        EnemiesAlive++;
     }
 }
