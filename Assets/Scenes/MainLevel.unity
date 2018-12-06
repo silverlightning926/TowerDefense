@@ -10841,6 +10841,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 725d3a56b59425f4fac675a6650095f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waves:
+  - enemy: {fileID: 0}
+    count: 0
+    rate: 0
+  - enemy: {fileID: 0}
+    count: 0
+    rate: 0
+  - enemy: {fileID: 0}
+    count: 0
+    rate: 0
   enemyPrefab: {fileID: 4093622118588734, guid: 85c677b6697b95e489334b3f3413db5a,
     type: 2}
   spawnPoint: {fileID: 4393809887779592, guid: 9656fd69a5929c04cb890d825490d588, type: 2}
