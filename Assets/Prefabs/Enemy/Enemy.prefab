@@ -167,9 +167,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSpeed: 15
+  startHealth: 100
   healthBar: {fileID: 114515827177449512}
   speed: 10
-  startHealth: 100
   reward: 10
   deathEffect: {fileID: 1669729518656516, guid: 9112a5ce29c7ecc4a96044d0ea86fbb4,
     type: 2}
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 0.6627451}
+  m_Color: {r: 1, g: 0, b: 0, a: 0.7254902}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
