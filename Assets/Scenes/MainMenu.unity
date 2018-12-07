@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 945e202d019749644a3528b58a82d1f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelToLoad: MainLevel
+  LevelToLoad: LevelSelect
 --- !u!224 &61557606
 RectTransform:
   m_ObjectHideFlags: 0
