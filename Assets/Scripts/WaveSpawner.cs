@@ -18,6 +18,8 @@ public class WaveSpawner : MonoBehaviour {
 
     public Text waveCountDownText;
 
+    public GameManager gameManager;
+
     private int waveIndex = 0;
 
     void Update()
@@ -54,10 +56,10 @@ public class WaveSpawner : MonoBehaviour {
         }
 
         waveIndex++;
-
+        
         if (waveIndex == waves.Length)
         {
-            Debug.Log("Level Won!");
+            gameManager.WinLevel(); 
             this.enabled = false;
         }
 

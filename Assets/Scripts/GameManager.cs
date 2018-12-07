@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
@@ -6,6 +7,9 @@ public class GameManager : MonoBehaviour {
 
     public GameObject gameOverUI;
     public GameObject playerUI;
+
+    public string nextLevel = "Level02";
+    public int levelToUnlock = 2;
 
     void Start()
     {
@@ -31,5 +35,12 @@ public class GameManager : MonoBehaviour {
         GameIsOver = true;
         playerUI.SetActive(false);
         gameOverUI.SetActive(true);
+    }
+
+    public void WinLevel()
+    {
+        Debug.Log("Level Won!");
+        PlayerPrefs.SetInt("levelReached", 2);
+        SceneManager.LoadScene(nextLevel);
     }
 }
