@@ -10862,6 +10862,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 4393809887779592, guid: 9656fd69a5929c04cb890d825490d588, type: 2}
   timeBetweenWaves: 5
   waveCountDownText: {fileID: 2072167614}
+  gameManager: {fileID: 874047961}
 --- !u!4 &874047958
 Transform:
   m_ObjectHideFlags: 0
@@ -10902,7 +10903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMoney: 99999
-  startLives: 10
+  startLives: 20
 --- !u!114 &874047961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10916,6 +10917,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverUI: {fileID: 561188345}
   playerUI: {fileID: 1512446157}
+  nextLevel: Level02
+  levelToUnlock: 2
 --- !u!114 &874047962
 MonoBehaviour:
   m_ObjectHideFlags: 0
