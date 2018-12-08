@@ -166,8 +166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 598eaab30fd5c764ea37354e7bf1ef4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startSpeed: 20
-  startHealth: 150
+  startSpeed: 15
+  startHealth: 125
   healthBar: {fileID: 114515827177449512}
   speed: 10
   reward: 30
