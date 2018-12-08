@@ -170,7 +170,7 @@ MonoBehaviour:
   startHealth: 350
   healthBar: {fileID: 114515827177449512}
   speed: 10
-  reward: 140
+  reward: 50
   deathEffect: {fileID: 1669729518656516, guid: 5b0215748e8538e40b357dce4e5515a4,
     type: 2}
 --- !u!114 &114299793826476042

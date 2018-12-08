@@ -22,7 +22,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 1
-  controlID: 9999
+  controlID: 13290
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 10000
+  controlID: 13291
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,10 +147,10 @@ MonoBehaviour:
     y: 0
     width: 763
     height: 635
-  m_MinSize: {x: 202, y: 421}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 202, y: 442}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 9936
+  controlID: 13154
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -406,8 +406,8 @@ MonoBehaviour:
     y: 284
     width: 763
     height: 351
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -436,7 +436,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 10001
+  controlID: 13292
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -489,9 +489,9 @@ MonoBehaviour:
     height: 263
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0a370100
-    m_LastClickedID: 79626
+    scrollPos: {x: 0, y: 13.27835}
+    m_SelectedIDs: f62c0000
+    m_LastClickedID: 0
     m_ExpandedIDs: e436faffdcdbfafff8dbfafffadbfaff8093fbff8a93fbff9a93fbff5ad4fbffb408fcffa8fffcffa62dfdff5437fdff6647fdff1451fdffee5afdffe6fbffff0000000086360100b6380100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -711,19 +711,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Prefabs/Enemy/Enemies/Tough Enemy
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Prefabs/Enemy/Enemies/Tough Enemy
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\raos\Documents\GitHub\TowerDefense
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 107.2923}
-    m_SelectedIDs: 7e2e0000
-    m_LastClickedID: 11902
+    m_SelectedIDs: 5a2e0000
+    m_LastClickedID: 11866
     m_ExpandedIDs: 00000000142a0000862b0000942b0000122c00001a2c0000c22c0000502e00007e2e0000283700002a37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -777,24 +777,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 0a370100
-    m_LastClickedInstanceID: 79626
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: f62c0000
+    m_LastClickedInstanceID: 11510
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 82260000bc2c0000662a00003e2c00002a2a00002e2b0000fe2b00001495f7ff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Enemies
+      m_OriginalName: Enemies
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 11458
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 15}
     m_CreateAssetUtility:

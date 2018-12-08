@@ -11254,6 +11254,21 @@ MonoBehaviour:
   - enemy: {fileID: 1171810713098876, guid: 6b24d80a8c3ae054d98b860204d13f44, type: 2}
     count: 3
     rate: 1
+  - enemy: {fileID: 1171810713098876, guid: ddec1e115a5d00340b98936aca7cf74e, type: 2}
+    count: 7
+    rate: 2
+  - enemy: {fileID: 1171810713098876, guid: 6b24d80a8c3ae054d98b860204d13f44, type: 2}
+    count: 5
+    rate: 3
+  - enemy: {fileID: 1171810713098876, guid: 6b24d80a8c3ae054d98b860204d13f44, type: 2}
+    count: 5
+    rate: 3
+  - enemy: {fileID: 1171810713098876, guid: 85c677b6697b95e489334b3f3413db5a, type: 2}
+    count: 7
+    rate: 2
+  - enemy: {fileID: 1171810713098876, guid: 6b24d80a8c3ae054d98b860204d13f44, type: 2}
+    count: 7
+    rate: 3
   enemyPrefab: {fileID: 4093622118588734, guid: 85c677b6697b95e489334b3f3413db5a,
     type: 2}
   spawnPoint: {fileID: 4393809887779592, guid: 9656fd69a5929c04cb890d825490d588, type: 2}
