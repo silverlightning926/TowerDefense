@@ -1,21 +1,22 @@
 ﻿using UnityEngine;
 
-public class CameraController : MonoBehaviour {
-    
+public class CameraController : MonoBehaviour
+{
+
     public float panSpeed = 30f;
     public float panBorderThickness = 10f;
 
-    public float scrollSpeed = 5;
-
+    public float scrollSpeed = 5f;
     public float minY = 10f;
     public float maxY = 80f;
 
     // Update is called once per frame
-	void Update ()
+    void Update()
     {
+
         if (GameManager.GameIsOver)
         {
-            enabled = false;
+            this.enabled = false;
             return;
         }
 
@@ -23,7 +24,6 @@ public class CameraController : MonoBehaviour {
         {
             transform.Translate(Vector3.forward * panSpeed * Time.deltaTime, Space.World);
         }
-
         if (Input.GetKey("s") || Input.mousePosition.y <= panBorderThickness)
         {
             transform.Translate(Vector3.back * panSpeed * Time.deltaTime, Space.World);
@@ -41,9 +41,10 @@ public class CameraController : MonoBehaviour {
 
         Vector3 pos = transform.position;
 
-        pos.y -= scroll * 1000 * scrollSpeed * Time.deltaTime;
-        Mathf.Clamp(pos.y, minY, maxY);
+        pos.y -= scroll * 500 * scrollSpeed * Time.deltaTime;
+        pos.y = Mathf.Clamp(pos.y, minY, maxY);
 
         transform.position = pos;
+
     }
 }
