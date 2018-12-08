@@ -33,7 +33,7 @@ public class WaveSpawner : MonoBehaviour {
         {
             gameManager.WinLevel();
             this.enabled = false;
-        }
+        } 
 
         if (countdown <= 0f)
         {
