@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 15
-  fireRate: 1
+  fireRate: 2
   useLaser: 0
   damageOverTime: 30
   slowAmount: 0.5
