@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startSpeed: 10
-  startHealth: 350
+  startHealth: 450
   healthBar: {fileID: 114515827177449512}
   speed: 10
   reward: 50
