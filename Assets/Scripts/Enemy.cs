@@ -10,6 +10,8 @@ public class Enemy : MonoBehaviour {
 
     public Image healthBar;
 
+    private bool isDead = false;
+
     [HideInInspector]
     public float speed = 10f;
 
@@ -31,7 +33,7 @@ public class Enemy : MonoBehaviour {
 
         healthBar.fillAmount = health / startHealth;
 
-        if (health <= 0)
+        if (health <= 0 && !isDead)
         {
             Die();
         }
@@ -44,6 +46,8 @@ public class Enemy : MonoBehaviour {
 
     void Die()
     {
+        isDead = true;
+
         PlayerStats.Money += reward;
 
         GameObject effect = (GameObject)Instantiate(deathEffect, transform.position, Quaternion.identity);
