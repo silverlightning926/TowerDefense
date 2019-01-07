@@ -391,7 +391,7 @@ MonoBehaviour:
   range: 20
   fireRate: 1
   useLaser: 1
-  damageOverTime: 30
+  damageOverTime: 20
   slowAmount: 0.5
   lineRenderer: {fileID: 120649900125925814}
   impactEffect: {fileID: 198046348613822974}

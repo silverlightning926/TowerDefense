@@ -111,7 +111,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1343057785538412}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.02, y: 0.52, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4172510511591142}
@@ -258,8 +258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c85cf59c28be0c041be7327219329bbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 13
-  fireRate: 3
+  range: 15
+  fireRate: 1.5
   useLaser: 0
   damageOverTime: 30
   slowAmount: 0.5
