@@ -1,6 +1,10 @@
+# Tower Defense
+
 This is a Tower Defense game made in Unity.
 
 A Tower Defense Game is where enemies move through a path from the beginning to the end. The player must destroy the enemies before the enemies reach the end. The way players the enemies depend on the game. If the player is not able to stop the enemies he will lose a number of lives and when the lives becomes equal to 0, the player losses.
+
+Warning : This Repo was quite old and before I new how to use .gitIgnore
 
 The following information is for this game :
 
